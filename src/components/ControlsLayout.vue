@@ -4,13 +4,15 @@
     <div class="shapes-stats">
       <div>
         Total weight:
-        <span class="shapes-stats__weight">{{ totalDroppedShapesWeight }} kg</span>
+        <span class="shapes-stats__weight"
+          >{{ totalDroppedShapesWeight }} kg</span
+        >
       </div>
       <div>
         Momentum:
-        <span
-          class="shapes-stats__weight"
-        >{{ fallingShapes[0] && fallingShapes[0].weight }} kg</span>
+        <span class="shapes-stats__weight"
+          >{{ fallingShapes[0] && fallingShapes[0].weight }} kg</span
+        >
       </div>
     </div>
 
@@ -42,7 +44,9 @@
     <div class="shapes-stats">
       <div>
         Total weight:
-        <span class="shapes-stats__weight">{{ totalRandomShapesWeight }} kg</span>
+        <span class="shapes-stats__weight"
+          >{{ totalRandomShapesWeight }} kg</span
+        >
       </div>
     </div>
   </header>
