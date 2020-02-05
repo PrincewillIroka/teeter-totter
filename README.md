@@ -1,4 +1,4 @@
-# insider-teeter-totter
+# teeter-totter
 
 ## Project setup
 ```
