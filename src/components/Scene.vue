@@ -1,5 +1,5 @@
 <template>
-  <main class="playground">
+  <main class="scene">
     <FallingArea />
     <TeeterTotter />
   </main>
@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.playground {
+.scene {
   display: flex;
   flex-direction: column;
   flex: 1 1 100%;

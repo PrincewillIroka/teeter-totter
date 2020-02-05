@@ -2,17 +2,20 @@
   <div id="app">
     <ControlsLayout />
     <Scene />
+    <Modal/>
   </div>
 </template>
 
 <script>
 import ControlsLayout from "./components/ControlsLayout";
 import Scene from "./components/Scene";
+import Modal from "./components/Modal";
 
 export default {
   components: {
     ControlsLayout,
-    Scene
+    Scene,
+    Modal
   }
 };
 </script>
@@ -24,11 +27,21 @@ export default {
   box-sizing: border-box;
 }
 
+html,
+body,
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  overflow-y: auto !important;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
 }
 </style>

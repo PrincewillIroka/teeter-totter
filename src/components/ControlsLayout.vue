@@ -21,7 +21,7 @@
       <b-button
         id="play-btn"
         class="controls-panel__btn"
-        type="is-primary"
+        type="is-success"
         size="is-medium"
         tabindex="-1"
         :icon-left="isGamePaused ? 'play' : 'pause'"
@@ -31,7 +31,7 @@
       <!-- Restart game -->
       <b-button
         class="controls-panel__btn"
-        type="is-primary"
+        type="is-success"
         size="is-medium"
         icon-left="refresh"
         tabindex="-1"
