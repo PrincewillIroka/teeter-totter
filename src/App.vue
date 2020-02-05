@@ -1,14 +1,15 @@
 <template>
   <div id="app">
-    Insider Teeter Totter
+    <ControlsLayout/>
   </div>
 </template>
 
 <script>
+import ControlsLayout from './components/ControlsLayout'
 
 export default {
   components:{
-    
+    ControlsLayout
   }
 }
 </script>
