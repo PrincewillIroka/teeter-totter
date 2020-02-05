@@ -1,21 +1,24 @@
 <template>
   <div id="app">
-    <ControlsLayout/>
+    <ControlsLayout />
+    <Scene />
   </div>
 </template>
 
 <script>
-import ControlsLayout from './components/ControlsLayout'
+import ControlsLayout from "./components/ControlsLayout";
+import Scene from "./components/Scene";
 
 export default {
-  components:{
-    ControlsLayout
+  components: {
+    ControlsLayout,
+    Scene
   }
-}
+};
 </script>
 
 <style lang="scss">
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;

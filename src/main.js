@@ -5,6 +5,9 @@ import { Button, Modal } from "buefy";
 
 import "buefy/dist/buefy.css";
 
+Vue.use(Button);
+Vue.use(Modal);
+
 Vue.config.productionTip = false;
 
 new Vue({

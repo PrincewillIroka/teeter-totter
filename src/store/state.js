@@ -1,12 +1,12 @@
 const state = {
-    droppedShapes        : [],
-    fallingShapes        : [],
-    randomlyPlacedShapes : [],
+  droppedShapes: [],
+  fallingShapes: [],
+  randomlyPlacedShapes: [],
 
-    isGamePaused : true,
-    isModalShown : false,
+  isGamePaused: true,
+  isModalShown: false,
 
-    fallingIntervalGap: null
+  fallingIntervalGap: null
 };
 
 export default state;
